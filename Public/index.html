@@ -15,14 +15,13 @@
 <body>
     <!-- Cabeçalho -->
     <header class="container py-4 d-flex justify-content-between align-items-center header-custom">
-
         <h1 class="text-start">Vítor Tiradentes Sousa e Silva</h1>
         <nav>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#secao1" class="fs-4">Seção 1</a></li>
-                <li class="list-inline-item"><a href="#secao2" class="fs-4">Seção 2</a></li>
-                <li class="list-inline-item"><a href="#secao3" class="fs-4">Seção 3</a></li>
-                <li class="list-inline-item"><a href="#secao4" class="fs-4">Seção 4</a></li>
+                <li class="list-inline-item"><a href="#secao1" class="fs-4">Perfil</a></li>
+                <li class="list-inline-item"><a href="#secao2" class="fs-4">Repositórios</a></li>
+                <li class="list-inline-item"><a href="#secao3" class="fs-4">Conteúdo Sugerido</a></li>
+                <li class="list-inline-item"><a href="#secao4" class="fs-4">Colegas de Trabalho</a></li>
             </ul>
         </nav>
     </header>
@@ -36,7 +35,6 @@
                 <img src="assets/img/Foto Minha.png" class="img-fluid" alt="Minha Foto do GitHub">
             </div>
             <div class="col-md-8">
-
                 <h5 class="card-title meu-titulo">Vítor Tiradentes</h5>
                 <p class="card-text">Olá!! Seja muito bem-vindo ao meu perfil. Meu nome é Vítor, tenho 21 anos e
                     atualmente curso Ciências da Computação na PUCMinas.</p>
@@ -73,7 +71,6 @@
                         <p class="card-text">Conheça a Puc Minas!</p>
                     </div>
                 </div>
-                </a>
             </div>
             <div class="col">
                 <div class="card">
@@ -83,45 +80,21 @@
                         <p class="card-text">Saiba mais sobre: Computação.</p>
                     </div>
                 </div>
-                </a>
             </div>
         </div>
         <hr class="border-dark">
     </section>
 
-    <!-- Seção 3 - Carossel/Slider -->
+    <!-- Seção 3 - Carrossel/Slider -->
     <section id="secao3" class="container py-4">
         <h2 class="text-center">Conteúdo Sugerido</h2>
         <hr class="border-dark">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
+            <div class="carousel-indicators" id="carousel-indicators">
+                <!-- Indicadores do carousel serão inseridos aqui via JS -->
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/img/HelloImg.jpg" class="d-block w-100" alt="Imagem 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/PsiCores.jpg" class="d-block w-100" alt="Imagem 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/BannerBin.jpg" class="d-block w-100" alt="Imagem 3">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/BannerGame.jpg" class="d-block w-100" alt="Imagem 4">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Banner Galão.jpg" class="d-block w-100" alt="Imagem 5">
-                </div>
+            <div class="carousel-inner" id="carousel-inner">
+                <!-- Itens do carousel serão inseridos aqui via JS -->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
@@ -141,29 +114,68 @@
     <section id="secao4" class="container py-4">
         <h2 class="text-center">Colegas de Trabalho</h2>
         <hr class="border-dark">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col text-center">
-                <img src="assets/img/Colega 1.jpg" class="img-fluid" alt="Foto do Colega 1" style="width: 200px;">
-                <p class="mt-2">João Pedro</p>
-            </div>
-            <div class="col text-center">
-                <img src="assets/img/colega 2.jpg" class="img-fluid" alt="Foto do Colega 2" style="width: 200px;">
-                <p class="mt-2">Robert B.</p>
-            </div>
-            <div class="col text-center">
-                <img src="assets/img/Colega 3.jpg" class="img-fluid" alt="Foto do Colega 3" style="width: 200px;">
-                <p class="mt-2">Joana A.</p>
-            </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="coworkers">
+            <!-- Os colegas de trabalho serão preenchidos aqui via JS -->
         </div>
     </section>
-    
+
     <!-- Rodapé -->
     <footer class="container py-4 footer-custom">
-        <p class="text-center">© 2024 Vitor Tiradentes. </p>
+        <p class="text-center">© 2024 Vitor Tiradentes.</p>
     </footer>
 
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchJsonServerData();
+        });
+
+        async function fetchJsonServerData() {
+            try {
+                const response = await fetch('db.json');
+                const data = await response.json();
+                displayCoworkers(data.colegas_de_trabalho);
+                displayCarousel(data.conteudos_sugeridos);
+            } catch (error) {
+                console.error('Erro ao buscar dados do JSON Server: ', error);
+            }
+        }
+
+        function displayCoworkers(colegas) {
+            const container = document.getElementById('coworkers');
+            const colegasHtml = colegas.map(colega => `
+                <div class="col text-center">
+                    <img src="${colega.url_foto}" class="img-fluid" alt="Foto do Colega" style="width: 200px;">
+                    <p class="mt-2">${colega.nome}</p>
+                </div>`).join('');
+            container.innerHTML = colegasHtml;
+        }
+
+        function displayCarousel(conteudos) {
+            const indicatorsContainer = document.getElementById('carousel-indicators');
+            const innerContainer = document.getElementById('carousel-inner');
+
+            const indicatorsHtml = conteudos.map((conteudo, index) => `
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${index}" class="${index === 0 ? 'active' : ''}" aria-current="true" aria-label="Slide ${index + 1}"></button>
+            `).join('');
+
+            const innerHtml = conteudos.map((conteudo, index) => `
+                <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                    <a href="${conteudo.url_conteudo}" target="_blank">
+                        <img src="${conteudo.url_imagem}" class="d-block w-100" alt="${conteudo.titulo}">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>${conteudo.titulo}</h5>
+                            <p>${conteudo.descricao}</p>
+                        </div>
+                    </a>
+                </div>
+            `).join('');
+
+            indicatorsContainer.innerHTML = indicatorsHtml;
+            innerContainer.innerHTML = innerHtml;
+        }
+    </script>
 </body>
 
 </html>

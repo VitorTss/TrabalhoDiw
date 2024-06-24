@@ -1,0 +1,60 @@
+{
+    "conteudos_sugeridos": [
+      {
+        "id": 1,
+        "titulo": "Conteúdo Exemplo 1",
+        "descricao": "Descrição do conteúdo exemplo 1.",
+        "url_imagem":"assets/img/HelloImg.jpg",
+        "url_conteudo": "https://example.com/conteudo1"
+      },
+      {
+        "id": 2,
+        "titulo": "Conteúdo Exemplo 2",
+        "descricao": "Descrição do conteúdo exemplo 2.",
+        "url_imagem": "assets/img/PsiCores.jpg",
+        "url_conteudo": "https://example.com/conteudo2"
+      },
+      {
+        "id": 3,
+        "titulo": "Conteúdo Exemplo 3",
+        "descricao": "Descrição do conteúdo exemplo 3.",
+        "url_imagem": "assets/img/BannerBin.jpg",
+        "url_conteudo": "https://example.com/conteudo3"
+      },
+      {
+        "id": 4,
+        "titulo": "Conteúdo Exemplo 4",
+        "descricao": "Descrição do conteúdo exemplo 4.",
+        "url_imagem": "assets/img/BannerGame.jpg",
+        "url_conteudo": "https://example.com/conteudo4"
+      },
+      {
+        "id": 5,
+        "titulo": "Conteúdo Exemplo 5",
+        "descricao": "Descrição do conteúdo exemplo 5.",
+        "url_imagem": "assets/img/Banner Galão.jpg",
+        "url_conteudo": "https://example.com/conteudo5"
+      }
+    ],
+    "colegas_de_trabalho": [
+      {
+        "id": 1,
+        "nome": "João Pedro",
+        "url_foto": "assets/img/Colega 1.jpg",
+        "url_github": "https://github.com/joaopedro"
+      },
+      {
+        "id": 2,
+        "nome": "Robert B.",
+        "url_foto": "assets/img/colega 2.jpg",
+        "url_github": "https://github.com/robertb"
+      },
+      {
+        "id": 3,
+        "nome": "Joana A.",
+        "url_foto": "assets/img/Colega 3.jpg",
+        "url_github": "https://github.com/joanaa"
+      }
+    ]
+  }
+  

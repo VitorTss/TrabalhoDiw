@@ -1,11 +1,11 @@
 {
     "conteudos_sugeridos": [
       {
-        "id": 1,
-        "titulo": "Conteúdo Exemplo 1",
-        "descricao": "Descrição do conteúdo exemplo 1.",
+        "id": "1",
+        "titulo": "Hello!",
+        "descricao": "Descubra o significado do Hello World!",
         "url_imagem":"assets/img/HelloImg.jpg",
-        "url_conteudo": "https://example.com/conteudo1"
+        "url_conteudo": "https://coodesh.com/blog/dicionario/o-que-e-hello-world/"
       },
       {
         "id": 2,
@@ -30,31 +30,50 @@
       },
       {
         "id": 5,
-        "titulo": "Conteúdo Exemplo 5",
-        "descricao": "Descrição do conteúdo exemplo 5.",
+        "titulo": "Galo!",
+        "descricao": "Seja Galo na Veia!",
         "url_imagem": "assets/img/Banner Galão.jpg",
-        "url_conteudo": "https://example.com/conteudo5"
+        "url_conteudo": "https://galonaveia.atletico.com.br/home"
       }
     ],
     "colegas_de_trabalho": [
       {
         "id": 1,
-        "nome": "João Pedro",
-        "url_foto": "assets/img/Colega 1.jpg",
-        "url_github": "https://github.com/joaopedro"
+        "nome": "Julio Buzzi",
+        "url_foto": "assets/img/juliadaNew.jpg",
+        "url_github": "https://github.com/JulioBuzzi"
       },
       {
         "id": 2,
-        "nome": "Robert B.",
-        "url_foto": "assets/img/colega 2.jpg",
-        "url_github": "https://github.com/robertb"
+        "nome": "Bruno Maximo",
+        "url_foto": "assets/img/brunao.jpg",
+        "url_github": "https://github.com/BrunoMaximo03"
       },
       {
         "id": 3,
-        "nome": "Joana A.",
-        "url_foto": "assets/img/Colega 3.jpg",
-        "url_github": "https://github.com/joanaa"
+        "nome": "Filipi Pereira",
+        "url_foto": "assets/img/filipao.jpg",
+        "url_github": "https://github.com/FilipiiPereira"
       }
+    ],
+    "albuns": [
+      { 
+      "id": "817898552",
+      "titulo": "TrabalhoDiw",
+      "imagem": "assets/img/interdisplinar.jpg",
+      "link": "https://api.github.com/users/VitorTss/repos"
+    }, { 
+      "id": "817898982",
+      "titulo": "TrabalhoDiw",
+      "imagem": "assets/img/interdisplinar.jpg",
+      "link": "https://api.github.com/users/kamranahmedse/repos"
+    }, { 
+      "id": "557253351",
+      "titulo": "TrabalhoDiw",
+      "imagem": "assets/img/interdisplinar.jpg",
+      "link": "https://api.github.com/users/kamranahmedse/repos"
+    }
     ]
+
   }
   

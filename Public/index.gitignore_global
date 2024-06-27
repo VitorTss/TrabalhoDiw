@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Incluindo o script.js -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="container py-4 d-flex justify-content-between align-items-center header-custom">
+        <h1 class="text-start">Vítor Tiradentes Sousa e Silva</h1>
+        <nav>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#secao1" class="fs-4">Perfil</a></li>
+                <li class="list-inline-item"><a href="#secao2" class="fs-4">Repositórios</a></li>
+                <li class="list-inline-item"><a href="#secao3" class="fs-4">Conteúdo Sugerido</a></li>
+                <li class="list-inline-item"><a href="#secao4" class="fs-4">Colegas de Trabalho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção 1 - Perfil -->
+    <section id="secao1" class="container py-4">
+        <h2 class="text-start mb-4">Perfil</h2>
+        <hr class="border-dark">
+        <div class="row justify-content-center">
+            <div class="col-md-4" id="profile-image">
+                <!-- Imagem do perfil será inserida via JS -->
+            </div>
+            <div class="col-md-8" id="user-profile">
+                <!-- Perfil será preenchido via JS -->
+            </div>
+        </div>
+        <hr class="border-dark">
+    </section>
+    
+<!-- Seção 2 - Repositórios -->
+<section id="secao2" class="container py-4">
+    <h2 class="text-start mb-4">Repositórios(3)</h2>
+    <hr class="border-dark">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <a href="repo.html?id=817898552" class="text-decoration-none">
+                <div class="card">
+                    <img src="assets/img/ComPuc.jpg" class="card-img-top img-fluid" alt="CienciasImg">
+                    <div class="card-body">
+                        <h5 class="card-title">Repositório TRABALHODIW</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="repo.html?id=817898982" class="text-decoration-none">
+                <div class="card">
+                    <img src="assets/img/ComPuc.jpg" class="card-img-top img-fluid" alt="PucImg">
+                    <div class="card-body">
+                        <h5 class="card-title">LAILA-AHMED--BERIMBOLO-WEBSITE</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="repo.html?id=557253351" class="text-decoration-none">
+                <div class="card">
+                    <img src="assets/img/ComPuc.jpg" class="card-img-top img-fluid" alt="ComPuc">
+                    <div class="card-body">
+                        <h5 class="card-title">11TY-WEBSITE</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <hr class="border-dark">
+</section>
+
+
+    <!-- Seção 3 - Carrossel/Slider -->
+    <section id="secao3" class="container py-4">
+        <h2 class="text-center">Conteúdo Sugerido</h2>
+        <hr class="border-dark">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators" id="carousel-indicators">
+                <!-- Indicadores do carousel serão inseridos aqui via JS -->
+            </div>
+            <div class="carousel-inner" id="carousel-inner">
+                <!-- Itens do carousel serão inseridos aqui via JS -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <hr class="border-dark">
+    </section>
+
+    <!-- Seção 4 - Colegas de Trabalho -->
+    <section id="secao4" class="container py-4">
+        <h2 class="text-center">Colegas de Trabalho</h2>
+        <hr class="border-dark">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="coworkers">
+            <!-- Os colegas de trabalho serão preenchidos aqui via JS -->
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="container py-4 footer-custom">
+        <p class="text-center">© 2024 Vitor Tiradentes.</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script> src="script.js" </script>
+
+</body>
+
+</html>

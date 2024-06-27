@@ -9,22 +9,22 @@
       },
       {
         "id": 2,
-        "titulo": "Conteúdo Exemplo 2",
-        "descricao": "Descrição do conteúdo exemplo 2.",
+        "titulo": "",
+        "descricao": ".",
         "url_imagem": "assets/img/PsiCores.jpg",
         "url_conteudo": "https://example.com/conteudo2"
       },
       {
         "id": 3,
-        "titulo": "Conteúdo Exemplo 3",
-        "descricao": "Descrição do conteúdo exemplo 3.",
+        "titulo": "",
+        "descricao": "",
         "url_imagem": "assets/img/BannerBin.jpg",
         "url_conteudo": "https://example.com/conteudo3"
       },
       {
         "id": 4,
-        "titulo": "Conteúdo Exemplo 4",
-        "descricao": "Descrição do conteúdo exemplo 4.",
+        "titulo": "",
+        "descricao": "",
         "url_imagem": "assets/img/BannerGame.jpg",
         "url_conteudo": "https://example.com/conteudo4"
       },
